@@ -1,0 +1,10 @@
+name: ChatControl
+version: 0.1.3
+author: ItsMeNoobieboy
+main: com.itsmenoobieboy.chatcontrol.ChatControl
+api-version: 1.8
+commands:
+  chatcontrol:
+    description: Gets info about ChatControl
+    usage: /<command>
+    aliases: [cc]
