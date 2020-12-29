@@ -17,14 +17,14 @@ public class ChatControlEvents implements Listener {
         Player player = event.getPlayer();
         String playerName = "§5" + player.getDisplayName();
         player.sendMessage(ChatColor.LIGHT_PURPLE + "Welcome to Trennett!");
-        event.setJoinMessage("§9Welcome " + playerName + " §9to the server");
+        event.setJoinMessage(null);
     }
 
     @EventHandler
     public static void onPlayerLeave(PlayerQuitEvent event) {
         Player player = event.getPlayer();
         String playerName = "§5" + player.getDisplayName();
-        event.setQuitMessage(playerName + " §9left the server");
+        event.setQuitMessage(null);
     }
 
     @EventHandler
