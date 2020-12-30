@@ -1,0 +1,12 @@
+# ChatControl Config File
+
+# If capitalization matters
+CaseSensitive: false
+
+# If true, it will replace the blacklisted word with asterisks
+# if false, the player will not be able to send the message
+ReplaceWord: true
+
+# These are the words that will be filtered out
+BlacklistedWords:
+  -
